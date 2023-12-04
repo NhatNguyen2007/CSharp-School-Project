@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{841FEB13-D9DF-4F11-B9AF-93D6E397212E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MusicApp</RootNamespace>
+    <AssemblyName>MusicApp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.Licensing, Version=3.2.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b" />
+    <Reference Include="Bunifu.UI.WinForms.1.5.3">
+      <HintPath>C:\Users\HP\Desktop\BunifuCrack-main\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton">
+      <HintPath>C:\Users\HP\Desktop\BunifuCrack-main\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuGradientPanel">
+      <HintPath>C:\Users\HP\Desktop\BunifuCrack-main\Bunifu.UI.WinForms.BunifuGradientPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
+      <HintPath>C:\Users\HP\Desktop\BunifuCrack-main\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
+      <HintPath>C:\Users\HP\Desktop\BunifuCrack-main\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPanel">
+      <HintPath>C:\Users\HP\Desktop\BunifuCrack-main\Bunifu.UI.WinForms.BunifuPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
+      <HintPath>C:\Users\HP\Desktop\BunifuCrack-main\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuSlider">
+      <HintPath>C:\Users\HP\Desktop\BunifuCrack-main\Bunifu.UI.WinForms.BunifuSlider.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
+      <HintPath>C:\Users\HP\Desktop\BunifuCrack-main\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="CustomControls">
+      <HintPath>C:\Users\HP\Desktop\CustomControls.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddToPlaylist_Interface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddToPlaylist_Interface.Designer.cs">
+      <DependentUpon>AddToPlaylist_Interface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddToPlaylist_Playlist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddToPlaylist_Playlist.Designer.cs">
+      <DependentUpon>AddToPlaylist_Playlist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreatePlaylist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreatePlaylist.Designer.cs">
+      <DependentUpon>CreatePlaylist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Default_Search_Interface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Default_Search_Interface.Designer.cs">
+      <DependentUpon>Default_Search_Interface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LikedSongs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LikedSongs.Designer.cs">
+      <DependentUpon>LikedSongs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search_SeeAll_RecentSearches.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search_SeeAll_RecentSearches.Designer.cs">
+      <DependentUpon>Search_SeeAll_RecentSearches.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenreBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GenreBox.Designer.cs">
+      <DependentUpon>GenreBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Genre_Interface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Genre_Interface.Designer.cs">
+      <DependentUpon>Genre_Interface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home_SeeAll_MadeForYou.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home_SeeAll_MadeForYou.Designer.cs">
+      <DependentUpon>Home_SeeAll_MadeForYou.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home_SeeAll_RecentlyPlayed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home_SeeAll_RecentlyPlayed.Designer.cs">
+      <DependentUpon>Home_SeeAll_RecentlyPlayed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home_SeeAll_YourPlaylists.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home_SeeAll_YourPlaylists.Designer.cs">
+      <DependentUpon>Home_SeeAll_YourPlaylists.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuColorTable.cs" />
+    <Compile Include="MenuRenderer.cs" />
+    <Compile Include="MusicBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MusicBox.Designer.cs">
+      <DependentUpon>MusicBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Playlist_Song.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Playlist_Song.Designer.cs">
+      <DependentUpon>Playlist_Song.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search_Interface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search_Interface.Designer.cs">
+      <DependentUpon>Search_Interface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sidebar_Playlist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sidebar_Playlist.Designer.cs">
+      <DependentUpon>Sidebar_Playlist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Playlist.cs" />
+    <Compile Include="Playlist_Interface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Playlist_Interface.Designer.cs">
+      <DependentUpon>Playlist_Interface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RJDropDownMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YourLibrary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YourLibrary.Designer.cs">
+      <DependentUpon>YourLibrary.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddToPlaylist_Interface.resx">
+      <DependentUpon>AddToPlaylist_Interface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddToPlaylist_Playlist.resx">
+      <DependentUpon>AddToPlaylist_Playlist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreatePlaylist.resx">
+      <DependentUpon>CreatePlaylist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Default_Search_Interface.resx">
+      <DependentUpon>Default_Search_Interface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenreBox.resx">
+      <DependentUpon>GenreBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Genre_Interface.resx">
+      <DependentUpon>Genre_Interface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home_SeeAll_MadeForYou.resx">
+      <DependentUpon>Home_SeeAll_MadeForYou.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home_SeeAll_RecentlyPlayed.resx">
+      <DependentUpon>Home_SeeAll_RecentlyPlayed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home_SeeAll_YourPlaylists.resx">
+      <DependentUpon>Home_SeeAll_YourPlaylists.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LikedSongs.resx">
+      <DependentUpon>LikedSongs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MusicBox.resx">
+      <DependentUpon>MusicBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Playlist_Song.resx">
+      <DependentUpon>Playlist_Song.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search_Interface.resx">
+      <DependentUpon>Search_Interface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search_SeeAll_RecentSearches.resx">
+      <DependentUpon>Search_SeeAll_RecentSearches.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sidebar_Playlist.resx">
+      <DependentUpon>Sidebar_Playlist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Playlist_Interface.resx">
+      <DependentUpon>Playlist_Interface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YourLibrary.resx">
+      <DependentUpon>YourLibrary.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdFlyers\SongAdFlyers\Adios.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\As If It%27s Your Last.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Auditory Hallucination.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\BBoom BBoom.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Chuyện Đôi Ta.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Cô Gái Nhỏ Và Anh %28Acoustic Version%29.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Cưới Đi.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Daddy Challenge.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Dun Dun.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Dại.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Fancy.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Feel Special.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\How You Like That.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Kill This Love.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Kiss And Make Up.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Đau Hơn Chữ Đau.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Điều Ta Viết Mùa Xa Nhau.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Đưa Nhau Đi Trốn.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Đường Một Chiều.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Để Em Rời Xa.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\100 Questions.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\2H Sáng.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\3107 4.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\A Thousand Years.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Adios.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Afterdark.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Angel With A Shotgun.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Anh Đã Lớn Hơn Thế Nhiều.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Apologize.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Army.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\As If It%27s Your Last.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Auditory Hallucination.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Aurora.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Back To U.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Bad Liar.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\BBoom BBoom.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Beautiful People.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Before You Go.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Blinding Lights.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Bring Me Back.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Bumper Cars.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Buông.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Bài Hát Cuối.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Bản Ngã.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Cage Of Lies.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Car%27s Outside.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Castle On The Hill.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Chuyện Đôi Ta.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Chân Tình.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Chúng Ta Vẫn Còn Yêu Nhau Mà Phải Không.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Chẳng Hay Âm U.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Cô Gái Nhỏ Và Anh %28Acoustic Version%29.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Cưới Đi.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Daddy Challenge.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Deep Blue.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Demons.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Downfall.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Dun Dun.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Dại.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Fancy.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Feel Special.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Forever Young.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\How You Like That.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Kill This Love.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Kiss And Make Up.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Đau Hơn Chữ Đau.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Điều Ta Viết Mùa Xa Nhau.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Đưa Nhau Đi Trốn.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Đường Một Chiều.jpg" />
+    <Content Include="AdFlyers\SongPnlAdFlyers\Để Em Rời Xa.jpg" />
+    <Content Include="IconImages\Back_MouseLeave.png" />
+    <Content Include="IconImages\Back_MouseMove.png" />
+    <Content Include="IconImages\ChoosePhoto.png" />
+    <Content Include="IconImages\circleheart.png" />
+    <Content Include="AdFlyers\SongAdFlyers\100 Questions.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\2H Sáng.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\3107 4.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\A Thousand Years.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Afterdark.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Angel With A Shotgun.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Anh Đã Lớn Hơn Thế Nhiều.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Apologize.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Army.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Aurora.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Back To U.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Bad Liar.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Beautiful People.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Before You Go.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Blinding Lights.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Bring Me Back.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Bumper Cars.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Buông.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Bài Hát Cuối.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Bản Ngã.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Cage Of Lies.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Car%27s Outside.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Castle On The Hill.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Chân Tình.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Chúng Ta Vẫn Còn Yêu Nhau Mà Phải Không.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Chẳng Hay Âm U.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Deep Blue.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Demons.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Downfall.jpg" />
+    <Content Include="AdFlyers\SongAdFlyers\Forever Young.jpg" />
+    <Content Include="IconImages\DefaultPhoto.png" />
+    <Content Include="IconImages\filledheart.png" />
+    <Content Include="IconImages\heart.png" />
+    <Content Include="IconImages\pauseBlue.png" />
+    <Content Include="IconImages\playBlue.png" />
+    <Content Include="IconImages\WhiteCross.png" />
+    <Content Include="IconImages\BlackCross.png" />
+    <Content Include="IconImages\filled_circleheart.png" />
+    <Content Include="IconImages\mute.png" />
+    <Content Include="IconImages\pause.png" />
+    <Content Include="IconImages\play.png" />
+    <Content Include="IconImages\volume.png" />
+    <Content Include="RotateImg\EDM.png" />
+    <Content Include="RotateImg\Indie.png" />
+    <Content Include="RotateImg\K-Pop.png" />
+    <Content Include="RotateImg\Pop.png" />
+    <Content Include="RotateImg\Rock.png" />
+    <Content Include="RotateImg\USUK.png" />
+    <Content Include="RotateImg\Viet Rap.png" />
+    <Content Include="RotateImg\Vietnamese Music.png" />
+    <Content Include="SongImages\100 Questions.jpg" />
+    <Content Include="SongImages\2H Sáng.jpg" />
+    <Content Include="SongImages\3107 4.jpg" />
+    <Content Include="SongImages\A Thousand Years.jpg" />
+    <Content Include="SongImages\Adios.jpg" />
+    <Content Include="SongImages\Afterdark.jpg" />
+    <Content Include="SongImages\Angel With A Shotgun.jpg" />
+    <Content Include="SongImages\Anh Đã Lớn Hơn Thế Nhiều.jpg" />
+    <Content Include="SongImages\Apologize.jpg" />
+    <Content Include="SongImages\Army.jpg" />
+    <Content Include="SongImages\As If It%27s Your Last.jpg" />
+    <Content Include="SongImages\Auditory Hallucination.jpg" />
+    <Content Include="SongImages\Aurora.jpg" />
+    <Content Include="SongImages\Back To U.jpg" />
+    <Content Include="SongImages\Bad Liar.jpg" />
+    <Content Include="SongImages\BBoom BBoom.jpg" />
+    <Content Include="SongImages\Beautiful People.jpg" />
+    <Content Include="SongImages\Before You Go.jpg" />
+    <Content Include="SongImages\Blinding Lights.jpg" />
+    <Content Include="SongImages\Bring Me Back.jpg" />
+    <Content Include="SongImages\Bumper Cars.jpg" />
+    <Content Include="SongImages\Buông.jpg" />
+    <Content Include="SongImages\Bài Hát Cuối.jpg" />
+    <Content Include="SongImages\Bản Ngã.jpg" />
+    <Content Include="SongImages\Cage Of Lies.jpg" />
+    <Content Include="SongImages\Car%27s Outside.jpg" />
+    <Content Include="SongImages\Castle On The Hill.jpg" />
+    <Content Include="SongImages\Chuyện Đôi Ta.jpg" />
+    <Content Include="SongImages\Chân Tình.jpg" />
+    <Content Include="SongImages\Chúng Ta Vẫn Còn Yêu Nhau Mà Phải Không.jpg" />
+    <Content Include="SongImages\Chẳng Hay Âm U.jpg" />
+    <Content Include="SongImages\Cô Gái Nhỏ Và Anh %28Acoustic Version%29.jpg" />
+    <Content Include="SongImages\Cưới Đi.jpg" />
+    <Content Include="SongImages\Daddy Challenge.jpg" />
+    <Content Include="SongImages\Deep Blue.jpg" />
+    <Content Include="SongImages\Demons.jpg" />
+    <Content Include="SongImages\Downfall.jpg" />
+    <Content Include="SongImages\Dun Dun.jpg" />
+    <Content Include="SongImages\Dại.jpg" />
+    <Content Include="SongImages\Fancy.jpg" />
+    <Content Include="SongImages\Feel Special.jpg" />
+    <Content Include="SongImages\Forever Young.jpg" />
+    <Content Include="SongImages\How You Like That.jpg" />
+    <Content Include="SongImages\Kill This Love.jpg" />
+    <Content Include="SongImages\Kiss And Make Up.jpg" />
+    <Content Include="SongImages\Đau Hơn Chữ Đau.jpg" />
+    <Content Include="SongImages\Điều Ta Viết Mùa Xa Nhau.jpg" />
+    <Content Include="SongImages\Đưa Nhau Đi Trốn.jpg" />
+    <Content Include="SongImages\Đường Một Chiều.jpg" />
+    <Content Include="SongImages\Để Em Rời Xa.jpg" />
+    <Content Include="XML\Songs.xml" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

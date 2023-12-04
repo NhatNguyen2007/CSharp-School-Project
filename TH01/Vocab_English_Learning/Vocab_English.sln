@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vocab_English", "Vocab_English\Vocab_English.csproj", "{572021E7-5583-4F5C-83C9-B59B62F6A139}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{572021E7-5583-4F5C-83C9-B59B62F6A139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{572021E7-5583-4F5C-83C9-B59B62F6A139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{572021E7-5583-4F5C-83C9-B59B62F6A139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{572021E7-5583-4F5C-83C9-B59B62F6A139}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EA7DDCE-8B15-481E-BCFB-DAEA3B5E507C}
+	EndGlobalSection
+EndGlobal

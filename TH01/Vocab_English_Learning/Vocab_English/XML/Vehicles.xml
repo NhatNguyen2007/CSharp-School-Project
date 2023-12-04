@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Vehicles>
+	<Vehicle>
+		<Name>air balloon</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>ambulance</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>bicycle</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>bus</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>car</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>caravan</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>concrete mixer truck</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>container</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>cruise ship</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>dump truck</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>fire truck</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>forklift truck</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>garbage truck</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>helicopter</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>jeep</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>motor bike</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>motor boat</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>motorcycle</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>mountainbike</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>pickup truck</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>plane</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>police car</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>scooter</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>snow mobile</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>space shuttle</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>submarine</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>subway train</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>taxi</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>tractor</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>train</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>tricycle</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>crane truck</Name>
+	</Vehicle>
+	<Vehicle>
+		<Name>van</Name>
+	</Vehicle>
+</Vehicles>

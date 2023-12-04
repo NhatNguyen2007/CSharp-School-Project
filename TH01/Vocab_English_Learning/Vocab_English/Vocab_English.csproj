@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{572021E7-5583-4F5C-83C9-B59B62F6A139}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Vocab_English</RootNamespace>
+    <AssemblyName>Vocab_English</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CustomControls">
+      <HintPath>C:\Users\HP\Desktop\CustomControls.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetSkin.SkinControls">
+      <HintPath>C:\Users\HP\Desktop\DotNetSkin.SkinControls.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Animal_Spelling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Animal_Spelling.Designer.cs">
+      <DependentUpon>Animal_Spelling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fruit_Spelling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fruit_Spelling.Designer.cs">
+      <DependentUpon>Fruit_Spelling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LeaderBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LeaderBoard.Designer.cs">
+      <DependentUpon>LeaderBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vehicle_Spelling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vehicle_Spelling.Designer.cs">
+      <DependentUpon>Vehicle_Spelling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vocabulary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vocabulary.Designer.cs">
+      <DependentUpon>Vocabulary.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Animal_Spelling.resx">
+      <DependentUpon>Animal_Spelling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fruit_Spelling.resx">
+      <DependentUpon>Fruit_Spelling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LeaderBoard.resx">
+      <DependentUpon>LeaderBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Vehicle_Spelling.resx">
+      <DependentUpon>Vehicle_Spelling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vocabulary.resx">
+      <DependentUpon>Vocabulary.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\Animals\antelope.jpg" />
+    <Content Include="Images\Animals\badger.jpg" />
+    <Content Include="Images\Animals\brown bear.jpg" />
+    <Content Include="Images\Animals\bunny.jpg" />
+    <Content Include="Images\Animals\chimpanzee.jpg" />
+    <Content Include="Images\Animals\chinchilla.jpg" />
+    <Content Include="Images\Animals\crocodile.jpg" />
+    <Content Include="Images\Animals\dalmatian dog.jpg" />
+    <Content Include="Images\Animals\elephant.jpg" />
+    <Content Include="Images\Animals\giraffe.jpg" />
+    <Content Include="Images\Animals\goat.jpg" />
+    <Content Include="Images\Animals\gold fish.jpg" />
+    <Content Include="Images\Animals\gorilla.jpg" />
+    <Content Include="Images\Animals\hamster.jpg" />
+    <Content Include="Images\Animals\hawk.jpg" />
+    <Content Include="Images\Animals\hippo.jpg" />
+    <Content Include="Images\Animals\horse.jpg" />
+    <Content Include="Images\Animals\leopard.jpg" />
+    <Content Include="Images\Animals\lion.jpg" />
+    <Content Include="Images\Animals\monkey.jpg" />
+    <Content Include="Images\Animals\owl.jpg" />
+    <Content Include="Images\Animals\panther.jpg" />
+    <Content Include="Images\Animals\parrot.jpg" />
+    <Content Include="Images\Animals\pig.jpg" />
+    <Content Include="Images\Animals\polar bear.jpg" />
+    <Content Include="Images\Animals\rabbit.jpg" />
+    <Content Include="Images\Animals\rhinoceros.jpg" />
+    <Content Include="Images\Animals\shark.jpg" />
+    <Content Include="Images\Animals\snake.jpg" />
+    <Content Include="Images\Animals\squirrel.jpg" />
+    <Content Include="Images\Animals\zebra.jpg" />
+    <Content Include="Images\Fruits\apple.jpg" />
+    <Content Include="Images\Fruits\avocado.jpg" />
+    <Content Include="Images\Fruits\banana.jpg" />
+    <Content Include="Images\Fruits\blackberry.jpg" />
+    <Content Include="Images\Fruits\blueberry.jpg" />
+    <Content Include="Images\Fruits\cherry.jpg" />
+    <Content Include="Images\Fruits\clementine.jpg" />
+    <Content Include="Images\Fruits\coconut.jpg" />
+    <Content Include="Images\Fruits\grapes.jpg" />
+    <Content Include="Images\Fruits\kiwi.jpg" />
+    <Content Include="Images\Fruits\lemon.jpg" />
+    <Content Include="Images\Fruits\lime.jpg" />
+    <Content Include="Images\Fruits\lychee.jpg" />
+    <Content Include="Images\Fruits\mango.jpg" />
+    <Content Include="Images\Fruits\mangosteen.jpg" />
+    <Content Include="Images\Fruits\olive.jpg" />
+    <Content Include="Images\Fruits\orange.jpg" />
+    <Content Include="Images\Fruits\papaya.jpg" />
+    <Content Include="Images\Fruits\passion fruit.jpg" />
+    <Content Include="Images\Fruits\peach.jpg" />
+    <Content Include="Images\Fruits\pear.jpg" />
+    <Content Include="Images\Fruits\persimmon.jpg" />
+    <Content Include="Images\Fruits\pineapple.jpg" />
+    <Content Include="Images\Fruits\pomegranate.jpg" />
+    <Content Include="Images\Fruits\raspberry.jpg" />
+    <Content Include="Images\Fruits\rockmelon.jpg" />
+    <Content Include="Images\Fruits\strawberry.jpg" />
+    <Content Include="Images\Fruits\tomato.jpg" />
+    <Content Include="Images\Fruits\watermelon.jpg" />
+    <Content Include="Images\Icons\Alert.png" />
+    <Content Include="Images\Icons\Right.png" />
+    <Content Include="Images\Icons\Wrong.png" />
+    <Content Include="Images\Vehicles\air balloon.jpg" />
+    <Content Include="Images\Vehicles\ambulance.jpg" />
+    <Content Include="Images\Vehicles\bicycle.jpg" />
+    <Content Include="Images\Vehicles\bus.jpg" />
+    <Content Include="Images\Vehicles\car.jpg" />
+    <Content Include="Images\Vehicles\caravan.jpg" />
+    <Content Include="Images\Vehicles\concrete mixer truck.jpg" />
+    <Content Include="Images\Vehicles\container.jpg" />
+    <Content Include="Images\Vehicles\crane truck.jpg" />
+    <Content Include="Images\Vehicles\cruise ship.jpg" />
+    <Content Include="Images\Vehicles\dump truck.jpg" />
+    <Content Include="Images\Vehicles\fire truck.jpg" />
+    <Content Include="Images\Vehicles\forklift truck.jpg" />
+    <Content Include="Images\Vehicles\garbage truck.jpg" />
+    <Content Include="Images\Vehicles\helicopter.jpg" />
+    <Content Include="Images\Vehicles\jeep.jpg" />
+    <Content Include="Images\Vehicles\motor bike.jpg" />
+    <Content Include="Images\Vehicles\motor boat.jpg" />
+    <Content Include="Images\Vehicles\motorcycle.jpg" />
+    <Content Include="Images\Vehicles\mountainbike.jpg" />
+    <Content Include="Images\Vehicles\pickup truck.jpg" />
+    <Content Include="Images\Vehicles\plane.jpg" />
+    <Content Include="Images\Vehicles\police car.jpg" />
+    <Content Include="Images\Vehicles\scooter.jpg" />
+    <Content Include="Images\Vehicles\snow mobile.jpg" />
+    <Content Include="Images\Vehicles\space shuttle.jpg" />
+    <Content Include="Images\Vehicles\submarine.jpg" />
+    <Content Include="Images\Vehicles\subway train.jpg" />
+    <Content Include="Images\Vehicles\taxi.jpg" />
+    <Content Include="Images\Vehicles\tractor.jpg" />
+    <Content Include="Images\Vehicles\train.jpg" />
+    <Content Include="Images\Vehicles\tricycle.jpg" />
+    <Content Include="Images\Vehicles\van.jpg" />
+    <Content Include="Sound\sound.wav" />
+    <Content Include="XML\Animals.xml" />
+    <Content Include="XML\Fruits.xml" />
+    <Content Include="XML\Vehicles.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

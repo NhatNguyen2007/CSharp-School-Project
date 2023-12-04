@@ -1,0 +1,48 @@
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Thực Hành\Vocab_English_Learning\Vocab_English\bin\Debug\Vocab_English.exe.config
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Thực Hành\Vocab_English_Learning\Vocab_English\bin\Debug\Vocab_English.exe
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Thực Hành\Vocab_English_Learning\Vocab_English\bin\Debug\Vocab_English.pdb
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Thực Hành\Vocab_English_Learning\Vocab_English\bin\Debug\CustomControls.dll
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Thực Hành\Vocab_English_Learning\Vocab_English\bin\Debug\DotNetSkin.SkinControls.dll
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Thực Hành\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.Animal_Spelling.resources
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Thực Hành\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.Fruit_Spelling.resources
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Thực Hành\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.Home.resources
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Thực Hành\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.MainMenu.resources
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Thực Hành\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.Properties.Resources.resources
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Thực Hành\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.Vehicle_Spelling.resources
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Thực Hành\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.csproj.GenerateResource.cache
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Thực Hành\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.csproj.CoreCompileInputs.cache
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Thực Hành\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.csproj.CopyComplete
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Thực Hành\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.exe
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Thực Hành\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.pdb
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Thực Hành\Vocab_English_Learning\Vocab_English\bin\Debug\Interop.WMPLib.dll
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Thực Hành\Vocab_English_Learning\Vocab_English\bin\Debug\AxInterop.WMPLib.dll
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Thực Hành\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.csproj.AssemblyReference.cache
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Thực Hành\Vocab_English_Learning\Vocab_English\obj\Debug\Interop.WMPLib.dll
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Thực Hành\Vocab_English_Learning\Vocab_English\obj\Debug\AxInterop.WMPLib.dll
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Thực Hành\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.csproj.ResolveComReference.cache
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Thực Hành\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.LeaderBoard.resources
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Thực Hành\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.Vocabulary.resources
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Vocab_English_Learning\Vocab_English\bin\Debug\Vocab_English.exe.config
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Vocab_English_Learning\Vocab_English\bin\Debug\Vocab_English.exe
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Vocab_English_Learning\Vocab_English\bin\Debug\Vocab_English.pdb
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Vocab_English_Learning\Vocab_English\bin\Debug\CustomControls.dll
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Vocab_English_Learning\Vocab_English\bin\Debug\DotNetSkin.SkinControls.dll
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Vocab_English_Learning\Vocab_English\bin\Debug\Interop.WMPLib.dll
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Vocab_English_Learning\Vocab_English\bin\Debug\AxInterop.WMPLib.dll
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.csproj.AssemblyReference.cache
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Vocab_English_Learning\Vocab_English\obj\Debug\Interop.WMPLib.dll
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Vocab_English_Learning\Vocab_English\obj\Debug\AxInterop.WMPLib.dll
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.csproj.ResolveComReference.cache
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.Animal_Spelling.resources
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.Fruit_Spelling.resources
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.Home.resources
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.LeaderBoard.resources
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.MainMenu.resources
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.Properties.Resources.resources
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.Vehicle_Spelling.resources
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.Vocabulary.resources
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.csproj.GenerateResource.cache
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.csproj.CoreCompileInputs.cache
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.csproj.CopyComplete
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.exe
+D:\NhatNguyen\HK1 - Nam_3\Ngôn Ngữ Lập Trình C#\Vocab_English_Learning\Vocab_English\obj\Debug\Vocab_English.pdb

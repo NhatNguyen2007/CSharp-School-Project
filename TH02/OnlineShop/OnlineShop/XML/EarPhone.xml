@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Earphones>
+	<Earphone>
+		<Name>HiFiMan RE400</Name>
+		<Price>550.000</Price>
+		<Feature>
+			Driver: 8.5mm
+			Impedance: 32 OHM+/-3.2
+			Sensitivity: 102dB/1mW
+			Rated power: 10mW
+			Maximum power: 30 mW
+			Frequency response: 15~22 KHZ
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>HiFiMan RE800</Name>
+		<Price>2.050.000</Price>
+		<Feature>
+			Đặc tính: Micro
+			Số driver mỗi bên: Driver Dynamic 9.2mm Topology Diaphragm
+			Loại giắc cắm: 3.5mm
+			Độ nhạy: 105db
+			Dải tần: 5Hz-20kHz
+			Kiểu tai nghe: In-ear
+			Trở kháng: 60Ω
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>HiFiMan RE2000</Name>
+		<Price>18.990.000</Price>
+		<Feature>
+			Đặc tính: Cable tháo rời
+			Số driver mỗi bên: 1 driver dyanmic màng Topology Diaphragm
+			Loại giắc cắm: 3.5mm
+			Độ nhạy: 103dB
+			Dải tần: 20-20KHz
+			Kiểu tai nghe: In-ear
+			Trở kháng: 60Ω
+			Trọng lượng: 13,8g
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>HiFiMan RE600S V2</Name>
+		<Price>4.900.000</Price>
+		<Feature>
+			Loại giắc cắm: 3.5mm
+			Độ nhạy: 102dB
+			Dải tần: 15Hz -22kHz
+			Kiểu tai nghe: In-ear
+			Chiều dài dây: 1m2
+			Trở kháng: 16Ω
+			Trọng lượng: 13.7g
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>HiFiMan RE1000</Name>
+		<Price>18.000.000</Price>
+		<Feature>
+			Frequency Response: 20Hz-20KHz
+			Sensitivity: 105dB
+			Impedance: 12 Ohms
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>Sony XBA-Z5</Name>
+		<Price>13.990.000</Price>
+		<Feature>
+			Type: Closed
+			Driver: Unit Hybrid 3-way System: 16mm Dynamic + 2 X Balanced Armature
+			Diaphragm: Aluminum-coated Liquid Crystal Polymer
+			Frequency Response: 3 - 40,000Hz
+			Sensitivity: 107dB/mW
+			Impedance (at 1 kHz): 32 Ω
+			Cable: 1.2m detachable Silver-coated OFC Litz Wire Y-Type cable; 2m detachable Silver-coated OFC Litz Wire Balance Connection cable
+			Plug: Gold-plated L-shaped Stereo Mini; Gold-plated 3-pole Mini
+			Approx. Weight(excl. cable): 11g
+			Supplied Accessories: Carrying Case, Foamed Silicone Earbuds (S / M / L each 2), Hybrid Silicone Rubber Earbuds (SS/S/M/L each 2), Clip, Cable Adjuster
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>Sony MDR-XB55AP</Name>
+		<Price>790.000</Price>
+		<Feature>
+			Loại tai nghe: Kín, Động
+			Bộ màng loa: 12 mm, loại vòm (Cuộn dây âm thanh CCAW)
+			Từ tính: Neodymium
+			Trở kháng (OHM): 16 ohm (1KHz)
+			Tần số phản hồi: 4 Hz - 24.000 Hz
+			Độ nhạy (DB/MW): 110 dB/mW
+			Độ dài cáp: Xấp xỉ 1,2 m, cáp Litz, hình chữ Y
+			Đầu cắm: Đầu cắm mini 4 cực mạ vàng hình chữ L
+			Kiểu tai nghe: In-ear
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>Sony MDR-EX155AP</Name>
+		<Price>350.000</Price>
+		<Feature>
+			Đặc tính: Chân cắm chữ L
+			Loại giắc cắm: 3.5mm
+			Thương hiệu: Nhật Bản
+			Dải tần: 5Hz-24.000Hz
+			Kiểu tai nghe: In-ear
+			Chiều dài dây: 1m2
+			Trọng lượng: 9g
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>Sony IER-M7</Name>
+		<Price>14.990.000</Price>
+		<Feature>
+			Đặc tính: Cable tháo rời
+			Loại giắc cắm: 3.5mm - 4.4mm
+			Thương hiệu: Nhật Bản
+			Độ nhạy: 103dB
+			Dải tần: 5 - 40kHz
+			Kiểu tai nghe: In-ear
+			Chiều dài dây: 1m2
+			Trở kháng: 24Ω
+			Trọng lượng: 9g
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>Sony IER-M9</Name>
+		<Price>26.990.000</Price>
+		<Feature>
+			Đặc tính: Cable tháo rời
+			Loại giắc cắm: 3.5mm - 4.4mm
+			Thương hiệu: Nhật Bản
+			Độ nhạy: 103dB
+			Dải tần: 5 - 40kHz
+			Kiểu tai nghe: In-ear
+			Chiều dài dây: 1m2
+			Trở kháng: 20Ω
+			Trọng lượng: 11g
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>Sony IER-Z1R</Name>
+		<Price>39.990.000</Price>
+		<Feature>
+			Đặc tính: Cable tháo rời
+			Loại giắc cắm: 3.5mm - 4.4mm
+			Thương hiệu: Nhật Bản
+			Dải tần: 3Hz - 100kHz
+			Kiểu tai nghe: In-ear
+			Chiều dài dây: 1m2
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>Sony MDR-EX15AP</Name>
+		<Price>199.000</Price>
+		<Feature>
+			Đặc tính: Micro
+			Số driver mỗi bên: Dynamic
+			Loại giắc cắm: 3.5mm
+			Thương hiệu: Nhật Bản
+			Dải tần: 8-22.000Hz
+			Kiểu tai nghe: In-ear
+			Chiều dài dây: 1m2
+			Trở kháng: 16Ω
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>SoundMAGIC ES30D</Name>
+		<Price>450.000</Price>
+		<Feature>
+			Số driver mỗi bên: 1 Driver
+			Thương hiệu: Trung Quốc
+			Dải tần: 15hz ~ 22khz
+			Kiểu tai nghe: In-ear
+			Trở kháng: 46 ± 10% Ohms
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>SoundMAGIC E11C</Name>
+		<Price>790.000</Price>
+		<Feature>
+			Đặc tính: Chân cắm chữ L
+			Loại giắc cắm: 3.5mm
+			Độ nhạy: 112db
+			Dải tần: 15Hz -22kHz
+			Kiểu tai nghe: In-ear
+			Chiều dài dây: 1m2
+			Trở kháng: 42Ω
+			Trọng lượng: 15g
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>SoundMAGIC ES20BT</Name>
+		<Price>265.000</Price>
+		<Feature>
+			Đặc tính: Micro
+			Số driver mỗi bên: Dynamic
+			Độ nhạy: 107dB
+			Trọng lượng: 12.5g
+			Kiểu tai nghe: In-ear
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>SoundMAGIC ES19S</Name>
+		<Price>450.000</Price>
+		<Feature>
+			Dải tần: 15-22000Hz
+			Độ nhạy: 95±3db
+			Chiều dài dây: 1.2 m
+			Trở kháng: 45Ω
+			Loại giắc cắm: 3.5mm
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>SoundMAGIC E80</Name>
+		<Price>1.150.000</Price>
+		<Feature>
+			Driver: Dynamic, 10mm, Neodymium
+			Frequency range: 15Hz - 22kHz
+			Impedance: 64Ω
+			Sensitivity: 102dB
+			Maximum input power: 20mW
+			Cable: 1.2m
+			Connector: 3.5mm, angled jack, gold-plated
+			Weight: 13g
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>SoundMAGIC E10C</Name>
+		<Price>750.000</Price>
+		<Feature>
+			Kiểu dáng: In-ear
+			Kích thước màng loa: 10mm
+			Giải tần: 15Hz - 22.000Hz
+			Độ nhạy (SPL): 100 dB/ mW
+			Trở kháng: 46Ω
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>SoundMAGIC E50C</Name>
+		<Price>450.000</Price>
+		<Feature>
+			Driver: 10mm Dynamic
+			Frequency Response: 15Hz - 22kHz
+			Impedance: 51Ω
+			Sensitivity: 102dB
+			Cable: 1.2m
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>64Audio A12t</Name>
+		<Price>54.990.000</Price>
+		<Feature>
+			Trở kháng: 112.6 +1/-2 ohms from 10Hz - 20kHz
+			Độ nhạy: 108db @1kHz @1mw
+			Dải tần đáp ứng: 10Hz – 20kHz
+			Cách âm: -20dB với apex m20 module, -15dB với apex m15 module
+			Fit: Custom fit, làm dựa trên mẫu tai người dùng.
+			Cấu tạo từ 12 BA Drivers: 1 tia high, 1 high-mid, 6 mid, 4 low
+			Chất liệu: Hypoallergenic, hard acrylic shells
+			Crossovers: Integrated 4-way passive crossover
+			Bores: tia Single Bore design
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>64Audio A4t Custom IEM</Name>
+		<Price>28.990.000</Price>
+		<Feature>
+			Trở kháng: 11Ω @ 1kHz
+			Độ nhạy: 111 dB/mWle
+			Dải tần đáp ứng: 16Hz – 20kHz
+			Cách âm: -20dB với apex m20 module
+			Fit: Custom fit, làm dựa trên mẫu tai người dùng.
+			Cấu tạo từ 4 BA Drivers: 1 tia High, 1 Hi-Mid, 1 Mid, 1 Low
+			Chất liệu: Hypoallergenic, hard acrylic shells
+			Crossovers: Integrated 4-way passive crossover
+			Bores: tia Single Bore design
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>64Audio Tia Trio</Name>
+		<Price>59.990.000</Price>
+		<Feature>
+			Đặc tính: Cable tháo rời
+			Số driver mỗi bên: Transducer Configuration: 1 tia high, 1 high-mid, 1 dynamic mid/low - Transducer Type: 2 precision BA drivers, 1 dynamic driver
+			Thương hiệu: Mỹ
+			Độ nhạy: 104dB
+			Dải tần: 5Hz-22000Hz
+			Kiểu tai nghe: In-ear
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>64Audio Duo</Name>
+		<Price>29.990.000</Price>
+		<Feature>
+			Trình điều khiển: Một trình điều khiển động và một trình điều khiển phần ứng cân bằng
+			Cấu hình trình điều khiển: 1 tia cao, 1 tia động thấp
+			Đáp ứng tần số: 20 Hz - 20 kHz
+			Độ nhạy: 98 dB
+			Trở kháng: 9 Ohms
+			Crossover: thụ động 2 chiều
+			Cách ly: -12 dB (công nghệ internal apex)
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>64Audio U6t</Name>
+		<Price>34.450.000</Price>
+		<Feature>
+			Driver Type/Count: Six precision balanced armature drivers
+			Driver Configuration: 1 tia high, 1 hi-mid, 2 mid, 2 low
+			Frequency Response: 10Hz – 20kHz
+			Sensitivity: 108 dB/mW
+			Impedance: 10Ω Nominal
+			Crossover: Integrated 4-way passive crossover
+			Isolation: -20dB with m20 apex module
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>64Audio U18s</Name>
+		<Price>79.990.000</Price>
+		<Feature>
+			Trình điều khiển: 18 trình điều khiển BA
+			Cấu hình trình điều khiển: 1 tia high, 1 high-mid, 8 mid, 8 low
+			Tần số đáp ứng: 10Hz - 20kHz
+			Độ nhạy: 106 dB / mW @ 1kHz @ 1mW (84mV)
+			Trở kháng: 8Ω
+			Crossover: tích hợp bộ phân tần thụ động 4 chiều
+			Mô đun Apex: -20dB w / m20, mô-đun -15dB w / m15, -10db w / mX mô-đun
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>64Audio A2e</Name>
+		<Price>16.990.000</Price>
+		<Feature>
+			Driver Type/Count: Two precision balanced armature drivers
+			Driver Configuration: 1 high, 1 mid/low
+			Frequency Response: 20Hz – 18kHz
+			Sensitivity: 114 dB/mW
+			Impedance: 30Ω @ 1kHz
+			Crossover: Integrated 2-way passive crossover
+			Isolation: -20dB with m20 apex module
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>64Audio N8</Name>
+		<Price>46.990.000</Price>
+		<Feature>
+			Driver Type/Count: 8 precision BA drivers and 1 dynamic driver
+			Driver Configuration: 1 tia high, 1 hi-mid, 6 mid, 1 DD low
+			Frequency Response: 10Hz – 20kHz
+			Sensitivity: 105 dB/mW
+			Impedance: 6Ω @ 1kHz
+			Crossover: Integrated 4-way passive crossover
+			Isolation: -15dB w/ m15 module, -20dB w/ m20 module
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>64Audio Nio</Name>
+		<Price>49.990.000</Price>
+		<Feature>
+			Driver Type/Count: Eight precision balanced armature drivers and one dynamic driver
+			Driver Configuration: 1 tia high, 1 high-mid, 6 mid, 1 dynamic low
+			Frequency Response: 10Hz – 20kHz
+			Sensitivity: 105db dB/mW
+			Impedance: 6Ω @1kHz
+			Crossover: Integrated 4-way passive crossover
+			Isolation: -10db w/ mX module, -15dB w/ m15 module, -20dB w/ m20 module
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>7Hz Salnotes ZERO</Name>
+		<Price>590.000</Price>
+		<Feature>
+			Model: Salnotes ZERO
+			Màu sắc: Trắng, xanh, đen
+			Trở kháng: 32Ω
+			Mức áp suất âm thanh: 108dB/v@1kHz
+			Dải tần đáp ứng: 10-20000Hz
+			THD: 1%/1kHz
+			Trình điều khiển: Dynamic 10mm
+			Đầu nối: 0.78mm
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>7Hz x Crinacle Salnotes Dioko</Name>
+		<Price>2.350.000</Price>
+		<Feature>
+			Model: Salnotes Dioko
+			Trình điều khiển: planar magnetic 14,6mm; nam châm N55
+			Trở kháng: 16 ohm
+			SPL: 106dB/v@1kHz
+			THD: ≤0,2% / 1khz
+			Đáp ứng tần số: 5-40000hz
+			Cáp: đồng OCC và đồng OCC mạ bạc
+			Đầu nối: 0.78mm 2pin
+		</Feature>
+	</Earphone>
+	<Earphone>
+		<Name>7Hz Timeless</Name>
+		<Price>4.990.000</Price>
+		<Feature>
+			Loại giắc cắm: 4.4mm
+			Độ nhạy: 104dB
+			Kiểu tai nghe: In-ear
+			Trở kháng: 14,8 ohms
+			Trọng lượng: 5.5g mỗi bên
+		</Feature>
+	</Earphone>
+</Earphones>
